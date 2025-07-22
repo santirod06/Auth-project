@@ -20,7 +20,6 @@ Está diseñado como un ejemplo real de cómo funcionan los flujos de registro e
 - ✔️ Backend con rutas protegidas usando middleware  
 - ✔️ Feedback en tiempo real desde el backend al frontend  
 - ✔️ Conexión a base de datos **MongoDB** con Mongoose  
-- ✔️ Código simple y didáctico para aprender cómo funciona el flujo completo
 
 <br>
 
@@ -95,7 +94,7 @@ cd back - nodejs
 npm install express mongoose bcryptjs jsonwebtoken cors dotenv
 ```
   
-3. Creá un archivo .env en la raiz del backend y agregá tu clave secreta para los tokens:
+3. Creá un archivo .env dentro de la carpeta components y agregá tu clave secreta para los tokens:
 
 ```bash
 JWT_SECRET=mitokensecreto123
