@@ -1,4 +1,4 @@
-# 🔐 Autenticación de Usuarios – React + Node.js + MongoDB
+## 🔐 Autenticación de Usuarios – React + Node.js + MongoDB
 
 Este proyecto es una aplicación **full stack** que implementa un sistema de autenticación de usuarios usando:
 
