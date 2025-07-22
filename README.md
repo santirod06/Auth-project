@@ -50,7 +50,7 @@ Está diseñado como un ejemplo real de cómo funcionan los flujos de registro e
 ```
 mi-proyecto-auth/
 │ 
-├── backend/
+├── back - nodejs/
 │ ├── middlewares/
 │ │ └── authMiddleware.js
 │ ├── models/
@@ -63,7 +63,7 @@ mi-proyecto-auth/
 │   └── package-lock.json
 │   └── package.json
 │ 
-├── frontend/
+├── front - react/
 │ ├── .vite
 │ ├── node_modules/
 │ ├── src/
@@ -97,7 +97,7 @@ npm install express mongoose bcryptjs jsonwebtoken cors dotenv
   
 3. Creá un archivo .env en la raiz del backend y agregá tu clave secreta para los tokens:
 
-```
+```bash
 JWT_SECRET=mitokensecreto123
 ```
    
